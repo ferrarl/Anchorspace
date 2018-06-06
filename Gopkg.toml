@@ -1,0 +1,32 @@
+
+
+[prune]
+  go-tests = true
+  unused-packages = true
+
+
+  # DO NOT DELETE
+  [[prune.project]] # buffalo
+    name = "github.com/gobuffalo/buffalo"
+    unused-packages = false
+
+  # DO NOT DELETE
+  [[prune.project]] # pop
+    name = "github.com/gobuffalo/pop"
+    unused-packages = false
+
+[[constraint]]
+  name = "github.com/gobuffalo/suite"
+  version = "2.0.0"
+
+[[constraint]]
+  name = "github.com/gobuffalo/tags"
+  version = "2.0.0"
+
+[[constraint]]
+  name = "github.com/minio/minio-go"
+  version = "6.0.2"
+
+[[constraint]]
+  name = "github.com/disintegration/gift"
+  version = "1.1.2"
