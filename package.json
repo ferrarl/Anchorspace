@@ -16,7 +16,7 @@
     "history": "4.7.2",
     "husky": "0.14.3",
     "lint-staged": "6.0.1",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.21",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-redux": "5.0.6",
